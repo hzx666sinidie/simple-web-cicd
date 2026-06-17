@@ -41,7 +41,7 @@ HTML = """<!DOCTYPE html>
 <body>
     <div class="card">
         <h1>🚀 CI/CD 部署成功！</h1>
-        <p class="version">Flask App v1.0 | Python {{ python_version }}</p>
+        <p class="version">Flask App v2.0 | Python {{ python_version }}</p>
         <div class="student-info">
             <p><span>👤 学生姓名：</span>{{ student_name }}</p>
             <p><span>🎓 学号：</span>{{ student_id }}</p>
