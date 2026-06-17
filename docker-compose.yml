@@ -1,0 +1,8 @@
+services:
+  web:
+    image: simple-web:latest
+    ports:
+      - "8080:8080"
+    build: .
+    environment:
+      - FLASK_ENV=development
